@@ -1,6 +1,6 @@
 //
-//  ViewController.swift
-//  Networking-DataRequest
+//  CountriesVM.swift
+//  Networking-Router
 //
 //  Created by Dushan Saputhanthri on 23/2/20.
 //  Copyright © 2020 RYRA Circuit. All rights reserved.
@@ -9,13 +9,7 @@
 import UIKit
 import SwiftyJSON
 
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        self.loadAllCountriesData()
-    }
+class CountriesVM: NSObject {
     
     //MARK: Load All Countries data
     func loadAllCountriesData() {
@@ -37,4 +31,3 @@ class ViewController: UIViewController {
         })
     }
 }
-

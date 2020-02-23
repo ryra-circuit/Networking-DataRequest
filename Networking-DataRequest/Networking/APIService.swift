@@ -23,20 +23,21 @@ public struct API {
             case .development:
                 return "https://restcountries.eu/rest/v2/"
             case .staging:
-                return "https://restcountries.eu/rest/v2/"
+                return ""
             case .production:
-                return "https://restcountries.eu/rest/v2/"
+                return ""
             }
         }
     }
 }
 
 public enum WebService: String {
-    case auth = "users"
+    case register = "users"
     case login = "users/"
     case forgotPassword = "password"
     case changePassword = "password/"
     case viewMyProfile = "profile"
     case updateMyProfile = "profile/"
+    case logout = ""
     case allCountries = "all"
 }
