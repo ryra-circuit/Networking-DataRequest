@@ -22,7 +22,6 @@ class CountriesVM: NSObject {
             case .Success(let data):
                 let _json = JSON(data)
                 print("**** JSON: \(_json)")
-                break
             case .Invalid(let message):
                 break
             case .Failure(let error):
