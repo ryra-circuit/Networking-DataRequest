@@ -8,6 +8,7 @@ target 'Networking-DataRequest' do
   pod 'Alamofire'
   pod 'SwiftyJSON'
   pod 'NotificationBannerSwift'
+  pod 'RappleProgressHUD'
 
   # Pods for Networking-DataRequest
 
