@@ -88,7 +88,6 @@
 			isa = PBXGroup;
 			children = (
 				604BE781240232CB0036470B /* Networking-DataRequest */,
-				8BC1871C24DD0615000822C5 /* Protocols */,
 				604BE780240232CB0036470B /* Products */,
 				823EA9A39AA972C0267C1EF5 /* Pods */,
 				536AAD75B571C0B427D68C48 /* Frameworks */,
@@ -113,6 +112,7 @@
 				604BE7AB24025F470036470B /* VCs+VMs */,
 				8BC1870824DD00A7000822C5 /* Models */,
 				604BE7AA24025F3C0036470B /* Utilities */,
+				8BC1871C24DD0615000822C5 /* Protocols */,
 			);
 			path = "Networking-DataRequest";
 			sourceTree = "<group>";
