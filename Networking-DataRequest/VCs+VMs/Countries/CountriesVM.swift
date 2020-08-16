@@ -31,7 +31,7 @@ class CountriesVM: BaseVM {
                     let _countries = _response
                     self.countryList = _countries
 
-                    completion(true, 200, "Countires data hs been loaded successfully.")
+                    completion(true, 200, "Countires data has been loaded successfully.")
                     
                 } else {
                     completion(false, 406, "Failed to read data.")
